@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SlidePriceCalculatorComponent } from './slide-price-calculator/slide-price-calculator.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SlidePriceCalculatorComponent
   ],
   imports: [
     BrowserModule,
