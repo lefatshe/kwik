@@ -1,1 +1,11 @@
-<app-slide-price-calculator></app-slide-price-calculator>
+<span><strong>Online</strong> deliveries</span>, made <strong>KWIK</strong>
+
+<hr/>
+
+<div class="main-container">
+  <app-multi-step-form
+    class="multi-step-form"
+    [formContent]="formContent"
+    (formSubmit)="onFormSubmit($event)"
+  ></app-multi-step-form>
+</div>
